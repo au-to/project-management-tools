@@ -1,9 +1,12 @@
 import AppRoutes from "./router";
+import { ConfigProvider } from "antd";
 
 function App () {
   return (
     <div className="App">
-      <AppRoutes></AppRoutes>
+      <ConfigProvider theme={{ token: { colorPrimary: '#00b96b' } }}>
+        <AppRoutes></AppRoutes>
+      </ConfigProvider>
     </div>
   )
 }
