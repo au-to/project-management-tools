@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Register from "../routes/user/Register";
 import Login from "../routes/user/Login";
-import NotFound from './../routes/NotFound.js'
+import NotFound from '../components/NotFound.js'
 import Home from "../routes/home/index.js";
 
 const AppRoutes = () => {

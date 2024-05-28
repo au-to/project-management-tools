@@ -1,5 +1,6 @@
 import AppRoutes from "./router";
 import { ConfigProvider } from "antd";
+import "./app.scss";
 
 function App () {
   return (
